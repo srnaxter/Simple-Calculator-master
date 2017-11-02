@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Super Calculatora</string>
+    <string name="deleteBtn"><![CDATA[<-]]></string>
+    <string name="addBtn">+</string>
+    <string name="sevenBtn">7</string>
+    <string name="fourBtn">4</string>
+    <string name="oneBtn">1</string>
+    <string name="pointBtn">.</string>
+    <string name="subtractBtn">-</string>
+    <string name="eightBtn">8</string>
+    <string name="fiveBtn">5</string>
+    <string name="twoBtn">2</string>
+    <string name="zeroBtn">0</string>
+    <string name="multiplyBtn">*</string>
+    <string name="nineBtn">9</string>
+    <string name="sixBtn">6</string>
+    <string name="threeBtn">3</string>
+    <string name="signBtn">+/-</string>
+    <string name="divBtn">/</string>
+    <string name="acBtn">AC</string>
+    <string name="equalBtn">=</string>
+    <string name="resultTextView">0</string>
+</resources>
