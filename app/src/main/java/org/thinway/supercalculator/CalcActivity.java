@@ -195,8 +195,7 @@ public class CalcActivity extends AppCompatActivity implements View.OnClickListe
         secondEquals=true;
 
     }
-
-    //When choosing an operation to be performed.
+    
     private void applyOp(Button button) {
         mOp = button.getText().toString().charAt(0);
         mAccumulator = Double.parseDouble(resultTextView.getText().toString());
@@ -205,7 +204,6 @@ public class CalcActivity extends AppCompatActivity implements View.OnClickListe
         firstOp=true;
     }
 
-    //Delete a number
     private void deleteNumber() {
         String actualNumber = resultTextView.getText().toString();
 
@@ -224,8 +222,7 @@ public class CalcActivity extends AppCompatActivity implements View.OnClickListe
 
         }
     }
-
-    //Add a point to the number
+    
     private void addPoint() {
         if (resultTextView.getText().toString().indexOf('.') == -1) {
             resultTextView.setText(
@@ -234,7 +231,6 @@ public class CalcActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    //Change the sign to the number
     private void changeSign() {
         String actualNumber = resultTextView.getText().toString();
 
@@ -247,8 +243,7 @@ public class CalcActivity extends AppCompatActivity implements View.OnClickListe
             resultTextView.setText(actualNumber);
         }
     }
-
-    //Add the selected number
+    
     private void readNumber(Button button) {
         String digit = button.getText().toString();
         String actualNumber = resultTextView.getText().toString();
